@@ -2,6 +2,11 @@
 
 MERN lab: React + Express + MongoDB notes manager.
 
+- **Name:** Bathula Nithin Reddy
+- **Roll Number:** 2026201038
+- **GitHub Repository:** [github.com/innith/student-notes](https://github.com/innith/student-notes)
+
+
 ## Tech stack
 
 - MongoDB database: `notes_db` at `mongodb://localhost:27017/notes_db`
@@ -22,7 +27,7 @@ MERN lab: React + Express + MongoDB notes manager.
 - `GET /api/notes` — list notes sorted by `createdAt: -1`
 - `DELETE /api/notes/:id` — delete by `_id`, returns `200` or `404`
 
-## Setup
+## Setup and Run
 
 Prerequisites: Node.js, npm, and a local MongoDB daemon listening on port `27017`.
 
