@@ -1,0 +1,10 @@
+# Dependencies
+server/node_modules/
+client/node_modules/
+
+# Production builds
+client/dist/
+
+# Lock files
+server/package-lock.json
+client/package-lock.json

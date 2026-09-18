@@ -1,0 +1,130 @@
+:root {
+  font-family: "Courier New", monospace;
+  line-height: 1.5;
+  color: #111;
+  background: #eee9dc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0 0 20px;
+  color: #555;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 2px solid #333;
+  background: #fff;
+  margin-bottom: 24px;
+}
+
+.note-form input,
+.note-form textarea {
+  font: inherit;
+  padding: 8px;
+  border: 1px solid #333;
+  background: #fff;
+}
+
+.note-form button,
+.note-card button {
+  font: inherit;
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.note-form button {
+  align-self: flex-start;
+  background: #000080;
+}
+
+.note-form button:hover {
+  background: #0000cd;
+}
+
+.notes-section h2 {
+  margin: 0 0 12px;
+}
+
+.notes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.note-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px;
+  border: 2px solid #333;
+  background: #fff;
+}
+
+.note-card h3 {
+  margin: 0 0 6px;
+}
+
+.note-card p {
+  margin: 0 0 8px;
+  white-space: pre-wrap;
+}
+
+.note-card time {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.note-card button {
+  flex-shrink: 0;
+  background: #800000;
+}
+
+.note-card button:hover {
+  background: #a00000;
+}
+
+.status {
+  padding: 12px;
+  border: 1px solid #333;
+}
+
+.error {
+  color: #800000;
+  background: #ffdddd;
+}
+
+.empty {
+  color: #444;
+  background: #eee;
+}
